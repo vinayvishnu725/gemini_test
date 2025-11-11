@@ -4,22 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
 
-// const apiKey = 'AIzaSyCxwTSFA-1MmJK6p4ptUxOAEdTFEmxF5UA';
-// void main() {
-//   Gemini.init(apiKey: apiKey, enableDebugging: true);
-
-//   Gemini.instance.prompt(parts: [
-//     Part.text('what is your name '),
-//   ]).then((value) {
-//     print(value?.output);
-//   });
-// }
 
 // ⚠️ Replace with your actual API Key
-const String apiKey = 'AIzaSyCxwTSFA-1MmJK6p4ptUxOAEdTFEmxF5UA';
+const String apiKey = 'Replace with your actual API Key';
 
 void main() {
-  if (apiKey == 'AIzaSyCxwTSFA-1MmJK6p4ptUxOAEdTFEmxF5UA') {
+  if (apiKey == ' Replace with your actual API Key') {
     print('start ...');
   }
 
